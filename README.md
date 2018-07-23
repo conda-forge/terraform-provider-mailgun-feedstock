@@ -14,14 +14,16 @@ Summary: The Terraform Mailgun provider
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/terraform-provider-mailgun-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/terraform-provider-mailgun-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/terraform-provider-mailgun-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/terraform-provider-mailgun-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/terraform-provider-mailgun-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/terraform-provider-mailgun-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/terraform-provider-mailgun-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/terraform-provider-mailgun-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/terraform-provider-mailgun-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/terraform-provider-mailgun-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/terraform-provider-mailgun-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/terraform-provider-mailgun-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-mailgun/badges/version.svg)](https://anaconda.org/conda-forge/terraform-provider-mailgun)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-mailgun/badges/downloads.svg)](https://anaconda.org/conda-forge/terraform-provider-mailgun)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-terraform--provider--mailgun-green.svg)](https://anaconda.org/conda-forge/terraform-provider-mailgun) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/terraform-provider-mailgun.svg)](https://anaconda.org/conda-forge/terraform-provider-mailgun) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/terraform-provider-mailgun.svg)](https://anaconda.org/conda-forge/terraform-provider-mailgun) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/terraform-provider-mailgun.svg)](https://anaconda.org/conda-forge/terraform-provider-mailgun) |
 
 Installing terraform-provider-mailgun
 =====================================
