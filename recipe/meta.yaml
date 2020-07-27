@@ -1,6 +1,6 @@
 {% set provider = "Mailgun" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 
 {% set name = goname.split('/')[-1] %}
 {% set pkg_src = ('gopath/src/'+goname).replace("/",os.sep) %}
@@ -14,7 +14,7 @@ package:
 source:
   - folder: {{ pkg_src }}
     url: https://{{ goname }}/archive/v{{ version }}.tar.gz
-    sha256: accb9e3586676ebaba09f05f1a8aead779c775e9636ccc60ed0329a77065048c
+    sha256: 6cf014fc770c2ef70b848117e5eee7d9c50dcd720c62276420cccb7a0dcf4114
 
 
 build:
