@@ -5,7 +5,8 @@
 {% set name = goname.split('/')[-1] %}
 {% set pkg_src = ('gopath/src/'+goname).replace("/",os.sep) %}
 
-{% set x4_plugin = name + '_v' + version + "_x4" %}
+{% set plugin_dir = os.sep.join(["plugins", "registry.terraform.io", "hashicorp", provider.lower(), version]) %}
+{% set x4_plugin = name + '_v' + version %}
 
 package:
   name: {{ name|lower }}
@@ -21,7 +22,7 @@ build:
   number: 1
   script:
     - pushd {{ pkg_src }}
-    - go build -v -o {{ target_gobin }}{{ x4_plugin }}{{ target_goexe }}
+    - go build -v -o {{ target_gobin }}..{{ os.sep }}{{ plugin_dir }}{{ os.sep }}{{ target_goos }}_{{ target_goarch }}{{ os.sep }}{{ x4_plugin }}{{ target_goexe }}
 
 requirements:
   build:
